@@ -1,1 +1,34 @@
-/*# sourceMappingURL=Philosophy.css.map */
+.philosophy {
+  padding: 40px 35px;
+  text-align: center;
+  background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 33.33%, rgba(213, 224, 255, 0) 100%);
+}
+.philosophy h1, .philosophy h2 {
+  margin-bottom: 30px;
+  color: #1B1B50;
+}
+.philosophy h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.philosophy p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  color: #1B1B50;
+}
+.philosophy p.first {
+  margin-bottom: 26px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 179%;
+  color: #000;
+  text-align: left;
+}
+.philosophy p.bold {
+  font-weight: 700;
+}
+.philosophy p.mt20 {
+  margin-top: 20px;
+}/*# sourceMappingURL=Philosophy.css.map */

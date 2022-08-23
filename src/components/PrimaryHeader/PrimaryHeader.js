@@ -1,8 +1,8 @@
 import './PrimaryHeader.css'
 
-const PrimaryHeader = ({title, tac}) => {
+const PrimaryHeader = ({title}) => {
   return (
-    <h1 className={`primaryHeader ${tac? 'tac': ''}`}> {title} </h1>
+    <h1 className='primaryHeader'> {title} </h1>
   )
 }
 

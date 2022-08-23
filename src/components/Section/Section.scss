@@ -1,10 +1,16 @@
 @import '../../variables/variables.scss';
 
 .section {
-    background-color: #fc3;
+    background-color: #fff;
+    
     
     .section__container {
         padding: 40px 35px;
+        
+        h2 {
+            margin-bottom: 20px;
+            color: #1B1B50;
+        }
 
         p {
             margin-top: 21px;
@@ -38,14 +44,28 @@
 
     .section__bg__pink {
         background: #F66E6E;
+        color: #fff;
+
+        p {
+            color: #fff;
+        }
     }
 
     .section__img {
-        width: 100%;
-        height: auto;
+        display: block;
         
         img {
             display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .section__img__grid {
+            padding: 0px 11px 35px;
+            display: grid;
+            grid-template-rows: auto auto;
+            grid-template-columns: auto auto;
+            grid-gap: 25px;
         }
     }
 }

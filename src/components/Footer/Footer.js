@@ -24,7 +24,7 @@ const Footer = () => {
             <p> Subscribe to our Newsletter </p>
             <div className="footer__form">
                 <input type="email" placeholder='Enter Eour Email' />
-                <Button text='Activate' bg='button__blue__gradient' />
+                <Button text='Activate' bg='button__bg__purple' leftIcon />
             </div>
         </div>
 

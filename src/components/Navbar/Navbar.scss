@@ -9,6 +9,7 @@
     border-radius: 0px 0px 14px 14px;
     position: sticky;
     top: 0;
+    z-index: 10;
 
     .navbar__space {
         flex: 1;
@@ -54,4 +55,5 @@
             background-color: rgba(188, 188, 188, 0.41);
         }
     }
+
 }

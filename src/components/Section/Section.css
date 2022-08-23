@@ -1,8 +1,12 @@
 .section {
-  background-color: #fc3;
+  background-color: #fff;
 }
 .section .section__container {
   padding: 40px 35px;
+}
+.section .section__container h2 {
+  margin-bottom: 20px;
+  color: #1B1B50;
 }
 .section .section__container p {
   margin-top: 21px;
@@ -28,11 +32,23 @@
 }
 .section .section__bg__pink {
   background: #F66E6E;
+  color: #fff;
+}
+.section .section__bg__pink p {
+  color: #fff;
 }
 .section .section__img {
-  width: 100%;
-  height: auto;
+  display: block;
 }
 .section .section__img img {
   display: block;
+  width: 100%;
+  height: auto;
+}
+.section .section__img .section__img__grid {
+  padding: 0px 11px 35px;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  grid-gap: 25px;
 }/*# sourceMappingURL=Section.css.map */

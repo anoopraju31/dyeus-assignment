@@ -5,28 +5,49 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 18px 20px;
-    gap: 10px;
+    padding: 10px 20px;
+    grid-gap: 40px;
     border-radius: 70px;
+    cursor: pointer;
+    background-color: #000;
 
     font-family: $font-secondary;
     font-weight: 600;
     font-size: 18px;
     line-height: 30px;
     text-align: center;
-    color: #FFFFFF;
-    cursor: pointer;
-
-    background-color: #000;
+    color: #FFFFFF;    
 }
 
 .button__blue__gradient {
     background: linear-gradient(288.62deg, #6E8CF6 42.36%, rgba(110, 213, 246, 0.93) 115.74%);
     box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
+    transition: background ease-in 0.6s, box-shadow ease-in 0.6s;
+}
+
+
+.button__blue__gradient:hover {
+    background: linear-gradient(288.62deg, #5e80f8 42.36%, rgba(92, 208, 246, 0.93) 115.74%);
+    box-shadow: 0px 2px 16px rgba(58, 218, 254, 0.33);
 }
 
 .button__bg__blue,
 .button__orange__gradient {
     background: linear-gradient(297.28deg, #F66E6E 67.01%, rgba(246, 110, 110, 0) 123.71%);
     filter: drop-shadow(0px 2px 6px rgba(255, 22, 64, 0.33));
+    transition: background ease-in 0.6s, box-shadow ease-in 0.6s;
+}
+
+.button__bg__blue:hover,
+.button__orange__gradient:hover {
+    background: linear-gradient(297.28deg, #fa6464 67.01%, rgba(243, 95, 95, 0) 123.71%);
+    filter: drop-shadow(0px 2px 6px rgba(228, 15, 54, 0.33));
+}
+
+.button__bg__purple {
+    grid-gap: 10px;
+    background: #D6F4FB;
+    color: #1B1B50;
+    padding: 5px 15px;
+    font-size: 14px;
 }

@@ -1,11 +1,12 @@
-import './Navbar.css'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { BsCart2 } from 'react-icons/bs'
 import { IoMdNotificationsOutline } from 'react-icons/io'
 import { AiFillSignal, AiOutlineWifi } from 'react-icons/ai'
 import { BsBatteryHalf } from 'react-icons/bs'
+import './Navbar.css'
 
 const Navbar = () => {
+
     return (
     	<div className='navbar'>
 			<div className="navbar__statusBar">
@@ -33,6 +34,7 @@ const Navbar = () => {
 					<IoMdNotificationsOutline size={20} />
 				</div>
 			</div>
+
       	</div>
     )
 }

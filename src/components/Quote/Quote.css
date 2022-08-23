@@ -1,0 +1,12 @@
+.quote {
+  padding: 60px 50px;
+  background-color: #fff;
+  background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 100%);
+}
+.quote h1 {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 134.8%;
+  color: rgba(0, 0, 0, 0.8);
+}/*# sourceMappingURL=Quote.css.map */

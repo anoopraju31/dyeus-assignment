@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Philosophy.css"}
+{"version":3,"sources":["Philosophy.scss","Philosophy.css","../../variables/variables.scss"],"names":[],"mappings":"AAEA;EACI,kBAAA;EACA,kBAAA;EACA,4FAAA;ACDJ;ADGI;EACI,mBAAA;EACA,cAAA;ACDR;ADII;EACA,kCEZa;EFab,eAAA;EACA,gBAAA;ACFJ;ADKI;EACI,kCEhBM;EFiBN,eAAA;EACA,iBAAA;EACA,cAAA;ACHR;ADMI;EACI,mBAAA;EACA,gBAAA;EACA,eAAA;EACA,iBAAA;EACA,WAAA;EACA,gBAAA;ACJR;ADOI;EACI,gBAAA;ACLR;ADQI;EACI,gBAAA;ACNR","file":"Philosophy.css"}

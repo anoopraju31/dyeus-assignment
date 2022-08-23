@@ -1,0 +1,26 @@
+@import '../../variables/variables.scss';
+
+.difference {
+    padding: 50px 35px;
+    background: linear-gradient(165.41deg, #D99EC9 0%, rgba(246, 240, 196, 0) 100%);
+
+    h1{ margin-bottom: 30px; }
+    h2 { margin-bottom: 35px; }
+
+    h2 {
+    font-family: $font-secondary;
+    }
+
+    p,li {
+        margin-bottom: 30px;
+        font-family: $font-secondary;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 180%;
+        color: #1B1B50;
+    }
+
+    ul {
+        margin-left: 25px;
+    }
+}

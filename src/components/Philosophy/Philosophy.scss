@@ -1,0 +1,42 @@
+@import '../../variables/variables.scss';
+
+.philosophy {
+    padding: 40px 35px;
+    text-align: center;
+    background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 33.33%, rgba(213, 224, 255, 0) 100%);
+
+    h1, h2 { 
+        margin-bottom: 30px;
+        color: #1B1B50;
+    }
+
+    h2 {
+    font-family: $font-secondary;
+    font-size: 18px;
+    margin-top: 20px;
+    }
+    
+    p {
+        font-family: $font-dmsans;
+        font-size: 16px;
+        line-height: 29px;
+        color: #1B1B50;
+    }
+
+    p.first {
+        margin-bottom: 26px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 179%;
+        color: #000;
+        text-align: left;
+    }
+
+    p.bold {
+        font-weight: 700;
+    }
+
+    p.mt20 {
+        margin-top: 20px;
+    }
+}

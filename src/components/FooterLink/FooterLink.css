@@ -1,0 +1,20 @@
+.footerLink {
+  margin: 7px 0;
+}
+.footerLink a:link,
+.footerLink a:visited {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 206.5%;
+  color: #fff;
+  text-decoration: none;
+  transition: color ease-in 0.6s;
+}
+.footerLink a:hover,
+.footerLink a:active {
+  color: #bbb;
+}
+.footerLink span {
+  margin-left: 4px;
+}/*# sourceMappingURL=FooterLink.css.map */

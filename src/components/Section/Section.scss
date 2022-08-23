@@ -1,0 +1,51 @@
+@import '../../variables/variables.scss';
+
+.section {
+    background-color: #fc3;
+    
+    .section__container {
+        padding: 40px 35px;
+
+        p {
+            margin-top: 21px;
+            margin-bottom: 33px;
+
+            font-family: $font-secondary;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 206.5%;
+
+            color: rgba(0, 0, 0, 0.8);
+        }
+
+        .section__img__top {
+            position: relative;
+            right: 35px;
+        }
+    }
+
+    .section__orange__gradient {
+        background: linear-gradient(176.88deg, #F3B8BC 2.58%, #FFDAD4 93.07%);
+    }
+
+    .section__blue__gradient {
+        background: linear-gradient(270deg, #DADAE4 0.25%, #EEEEF0 24.33%, #F8F8F8 52.08%, #FEFEFE 100%);
+    }
+
+    .section__bg__blue {
+        background: #DCE9E9;
+    }
+
+    .section__bg__pink {
+        background: #F66E6E;
+    }
+
+    .section__img {
+        width: 100%;
+        height: auto;
+        
+        img {
+            display: block;
+        }
+    }
+}

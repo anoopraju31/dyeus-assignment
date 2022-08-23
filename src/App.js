@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { Footer, Navbar, Philosophy, Section } from './components/import'
+import { sectionData } from './variables/sectionData'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+	return (
+		<div className="app">
+			<Navbar />
+			<Philosophy />
+			<Section contents={sectionData.wellness} bg='__bg__blue' />
+			<Section contents={sectionData.trackPeriod} bg='__orange__gradient' />
+			<Section contents={sectionData.consult} bg='__blue__gradient' />
+			<Section contents={sectionData.personalize} bg='__bg__pink' />
+			<Footer />
+		</div>
+	)
 }
 
-export default App;
+export default App

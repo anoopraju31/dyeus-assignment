@@ -1,0 +1,9 @@
+@import '../../variables/variables.scss';
+
+.primaryHeader {
+    font-family: serif;
+    font-family: $font-primary;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 134.8%;
+}
